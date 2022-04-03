@@ -12,7 +12,7 @@ include 'includes/autoloader.php';
     
     <?php
     $studentObj = new studentView();
-    $studentObj->showStudent("201507");
+    $studentObj->showStudent("201510");
     
     $studentObj2 = new StudentContr();
     $studentObj2->createStudent("201099", "Jane", "Economy", "90", "80");
